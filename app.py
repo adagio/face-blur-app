@@ -217,16 +217,16 @@ class FaceBlurApp:
                 outputs=[output_video, status_text]
             )
 
-            gr.Examples(
-                examples=[
-                    ["examples/people.mp4", True, 35],
-                    ["examples/street.mp4", True, 51],
-                ],
-                inputs=[input_video, blur_people, blur_intensity],
-                outputs=[output_video, status_text],
-                fn=self.process_video,
-                cache_examples=True # Acelera la carga de ejemplos
-            )
+            # gr.Examples(
+            #     examples=[
+            #         ["examples/people.mp4", True, 35],
+            #         ["examples/street.mp4", True, 51],
+            #     ],
+            #     inputs=[input_video, blur_people, blur_intensity],
+            #     outputs=[output_video, status_text],
+            #     fn=self.process_video,
+            #     cache_examples=True # Acelera la carga de ejemplos
+            # )
 
             gr.Markdown("--- \n *Hecho con Gradio, YOLOv8 y DeepSORT. Adaptado para Hugging Face Spaces.*")
         
