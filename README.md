@@ -30,10 +30,11 @@ Una aplicación web que permite desenfocar automáticamente los rostros en video
 5. ¡Descarga tu video con los rostros difuminados!
 
 ## 🛠️ Tecnologías Utilizadas
-- Python
+- Yolo8 by Ultralytics (Modelos de detección de objetos, detección facial)
+- DeepSORT (Modelos de seguimiento de objetos)
 - Gradio (para la interfaz web)
 - OpenCV (para procesamiento de imágenes)
-- Modelos de detección facial
+- Python
 
 ## 📄 Licencia
 Este proyecto está bajo la licencia Apache 2.0 - consulta el archivo LICENSE para más detalles.
