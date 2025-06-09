@@ -228,7 +228,7 @@ class FaceBlurApp:
             #     cache_examples=True # Acelera la carga de ejemplos
             # )
 
-            gr.Markdown("--- \n *Hecho con Gradio, YOLOv8 y DeepSORT. Adaptado para Hugging Face Spaces.*")
+            gr.Markdown("--- \n *Hecho con Gradio, YOLOv8 y DeepSORT.*")
         
         return interface
 
