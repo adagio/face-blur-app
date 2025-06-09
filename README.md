@@ -24,7 +24,7 @@ Una aplicación web que permite desenfocar automáticamente los rostros en video
 - Soporte para múltiples formatos de imagen
 
 ## 💻 Uso
-1. Accede a la aplicación
+1. Accede a la aplicación [Face Blur App en Hugging Face spaces](https://huggingface.co/spaces/rakio/face-blur-app)
 2. Sube un video
 3. Ajusta los parámetros de desenfoque, si lo deseas
 5. ¡Descarga tu video con los rostros difuminados!
